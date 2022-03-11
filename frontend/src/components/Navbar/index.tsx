@@ -6,7 +6,7 @@ function Navbar(){
     <header>
         <nav className="container">
           <div className='dslivros-nav-content'>
-            <h1>Livros BiCT</h1>
+            <h1>fILMES MAX</h1>
             <a href="https://github.com/carlosCajado">
             <div className='dslivros-nav-content'>
               <GithubIcon className='img'/>
