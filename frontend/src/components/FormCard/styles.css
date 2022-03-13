@@ -1,0 +1,88 @@
+.dsmovie-form-container {
+    max-width: 480px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.dsmovie-form {
+    width: calc(100% - 20px);
+}
+
+.dsmovie-form-group {
+    margin-bottom: 20px;
+}
+
+.dsmovie-form-group label {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.dsmovie-form-btn-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dsmovie-movie-card-image {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.dsmovie-card-bottom-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 10px;
+    border-radius: 0 0 8px 8px;
+}
+
+.dsmovie-card-bottom-container h3 {
+    color: #4A4A4A;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    min-height: 40px;
+}
+
+.dsmovie-btn {
+    background-color: var(--color-primary);
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 1000px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right,#7E23D9 , #9943EE, #6A89E4);
+    transition: all 0.3s
+    ease-in-out 0s;
+}
+.btn:hover{
+    background-color: transparent;
+    color: #00ffcb;
+    transform: scale(1.2)rotate(0deg);
+    box-shadow:  0 0 60px rgba(0, 255, 203, .64);
+    cursor:default;
+    border: 2px solid #00ffcb;
+
+
+}
