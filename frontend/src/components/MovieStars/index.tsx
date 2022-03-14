@@ -1,4 +1,3 @@
-import { type } from "@testing-library/user-event/dist/type"
 import {ReactComponent as StarFull} from "assets/img/estrela1.svg"
 import {ReactComponent as StarHalf} from "assets/img/estrela2.svg"
 import {ReactComponent as StarEmpty} from "assets/img/estrela3.svg"
